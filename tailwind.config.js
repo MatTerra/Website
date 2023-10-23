@@ -9,27 +9,27 @@ module.exports = {
     extend: {
       colors: {
         gray: {
-          100: '#EBF1F5',
-          200: '#D9E3EA',
-          300: '#C5D2DC',
-          400: '#9BA9B4',
-          500: '#707D86',
-          600: '#55595F',
-          700: '#33363A',
-          800: '#25282C',
-          900: '#151719',
+          100: '#F4F7F6',
+          200: '#E2E9EB',
+          300: '#CED8DD',
+          400: '#A4AFB5',
+          500: '#798387',
+          600: '#5E5F60',
+          700: '#3C3C3B',
+          800: '#2E2E2D',
+          900: '#1E1D1A',
         },
-        purple: {
-          100: '#F4F4FF',
-          200: '#E2E1FF',
-          300: '#CBCCFF',
-          400: '#ABABFF',
-          500: '#8D8DFF',
-          600: '#5D5DFF',
-          700: '#4B4ACF',
-          800: '#38379C',
-          900: '#262668',
-        },
+        blue: {
+          100: '#D5FFFF',
+          200: '#C3FFFF',
+          300: '#ACFFFF',
+          400: '#8CFFFF',
+          500: '#6EFFFF',
+          600: '#3EDAFF',
+          700: '#2CC7FF',
+          800: '#19B4DF',
+          900: '#07A3AB',
+        }
       },
       spacing: {
         '9/16': '56.25%',
@@ -37,8 +37,7 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
+        bandung: ['var(--font-bandung)', 'sans-serif'],
       },
       fontSize: {
         xs: '0.75rem',
