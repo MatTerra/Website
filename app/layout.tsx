@@ -7,7 +7,7 @@ import Header from '@/components/ui/header';
 const bandung = localFont({src: './BandungRegular.otf', variable: "--font-bandung"})
 
 export const metadata = {
-  title: 'MatTerra - Tech Lead-as-a-Service',
+  title: 'MatTerra - TI-as-a-Service',
   description: 'Desbloqueie o potencial tecnológico de sua empresa',
 };
 

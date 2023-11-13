@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import FeatImage01 from '@/public/images/features-03-image-01.png';
-import FeatImage02 from '@/public/images/features-03-image-02.png';
+import FeatImage01 from '@/public/images/features-03-image-01.jpg';
+import FeatImage02 from '@/public/images/features-03-image-02.jpg';
 import FeatImage03 from '@/public/images/features-03-image-03.png';
 
 export default function Zigzag() {
@@ -13,12 +13,10 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div
-              className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach
-              goals that matter
+              className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Use a TI a seu favor
             </div>
-            <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h1 className="h2 mb-4">Nossas soluções</h1>
+            <p className="text-xl text-gray-400">Serviços para todos os estágios e tamanhos de empresas.</p>
           </div>
 
           {/* Items */}
@@ -37,10 +35,10 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                    data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-bandung text-xl text-blue-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div className="font-bandung text-xl text-blue-600 mb-2">Investimento eficiente</div>
+                  <h3 className="h3 mb-3">Consultoria de Desenvolvimento</h3>
+                  <p className="text-xl text-gray-400 mb-4">Equipes integradas do tamanho ideal para acelerar seu projeto.
+                    Composição personalizada para atender as necessidades da sua empresa.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -48,7 +46,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Equipe integrada e especializada</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -56,7 +54,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Composição personalizada</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -64,7 +62,16 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Especialidades diversas</span>
+                    </li>
+
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
+                           xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
+                      </svg>
+                      <span>Contratação por hora ou demanda</span>
                     </li>
                   </ul>
                 </div>
@@ -83,10 +90,10 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                    data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-bandung text-xl text-blue-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div className="font-bandung text-xl text-blue-600 mb-2">Controle de Riscos</div>
+                  <h3 className="h3 mb-3">Consultoria LGPD</h3>
+                  <p className="text-xl text-gray-400 mb-4">Conte conosco para garantir que sua empresa está de acordo com as demandas
+                    regulatórias jurídicas e técnicas.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -94,7 +101,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Consultoria Jurídica</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -102,7 +109,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Proteção de Dados</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -110,7 +117,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Gerenciamento de Riscos</span>
                     </li>
                   </ul>
                 </div>
@@ -130,10 +137,10 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                    data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-bandung text-xl text-blue-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div className="font-bandung text-xl text-blue-600 mb-2">Aumento de produtividade.</div>
+                  <h3 className="h3 mb-3">DevOps</h3>
+                  <p className="text-xl text-gray-400 mb-4">Estabeleça práticas de DevOps na cultura de desenvolvimento da sua empresa.
+                  Automatize testes, integração e deploy para acelerar o ciclo de desenvolvimento.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -141,7 +148,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Treinamento Técnico</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -149,7 +156,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Implementação de esteira de CI/CD</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12"
@@ -157,7 +164,7 @@ export default function Zigzag() {
                         <path
                           d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"/>
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Implementação e gerenciamento de ambiente de cloud</span>
                     </li>
                   </ul>
                 </div>

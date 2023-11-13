@@ -6,10 +6,9 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">A tecnologia é essencial para startups, mas um Tech Lead experiente possui alto
-              custo.</h2>
-            <p className="text-xl text-gray-400">Não deixe isso limitar a capacidade de desenvolvimento da sua
-              equipe.</p>
+            <h2 className="h2 mb-4">A tecnologia é essencial para startups, mas selecionar e manter uma equipe dedicada com a expertise necessária pode ser caro.</h2>
+            <p className="text-xl text-gray-400">Não deixe isso limitar a capacidade de crescimento da sua
+              empresa.</p>
           </div>
 
           {/* Items */}
@@ -28,7 +27,7 @@ export default function Features() {
                 <path className="stroke-current text-blue-300" d="M43 42h-9M43 37h-9" strokeLinecap="square"
                       strokeWidth="2"/>
               </svg>
-              <h4 className="h4 mb-2">Recrutamento e Seleção</h4>
+              <h4 className="h4 mb-2">R&S</h4>
               <p className="text-lg text-gray-400 text-center">Com nossa expertise, você será capaz de selecionar os
                 desenvolvedores com melhor potencial técnico.</p>
             </div>
@@ -75,7 +74,7 @@ export default function Features() {
                   <circle className="stroke-current text-blue-300" cx="13" cy="9" r="3"/>
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Estruturação de Processos</h4>
+              <h4 className="h4 mb-2">Processos</h4>
               <p className="text-lg text-gray-400 text-center">Processos bem estabelecidos iram garantir a qualidade do
                 seu produto no longo prazo.</p>
             </div>
@@ -91,9 +90,8 @@ export default function Features() {
                   <path className="stroke-current text-blue-300" d="M22 30h4v12h-4z"/>
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Ferramentas Internas</h4>
-              <p className="text-lg text-gray-400 text-center">A seleção das ferramentas corretas para o time interno
-                pode reduzir custos e aumentar a performance.</p>
+              <h4 className="h4 mb-2">LGPD</h4>
+              <p className="text-lg text-gray-400 text-center">O compliance com a legislação atual é essencial para mitigar riscos jurídicos e tecnológicos.</p>
             </div>
 
             {/* 6th item */}
@@ -109,9 +107,9 @@ export default function Features() {
                         d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948"/>
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Suporte</h4>
-              <p className="text-lg text-gray-400 text-center">O suporte interno e externo é essencial para crescer sua
-                empresa.</p>
+              <h4 className="h4 mb-2">Ferramentas Internas</h4>
+              <p className="text-lg text-gray-400 text-center">A seleção das ferramentas corretas para o time interno
+                pode reduzir custos e aumentar a performance.</p>
             </div>
 
           </div>
