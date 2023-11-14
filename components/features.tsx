@@ -75,7 +75,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Processos</h4>
-              <p className="text-lg text-gray-400 text-center">Processos bem estabelecidos iram garantir a qualidade do
+              <p className="text-lg text-gray-400 text-center">Processos bem estabelecidos garantirão a qualidade do
                 seu produto no longo prazo.</p>
             </div>
 
